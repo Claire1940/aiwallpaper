@@ -85,66 +85,12 @@ const MODEL_OPTIONS = [
     provider: 'replicate',
     scenes: ['text-to-image', 'image-to-image'],
   },
-  {
-    value: 'fal-ai/nano-banana-pro',
-    label: 'Nano Banana Pro',
-    provider: 'fal',
-    scenes: ['text-to-image'],
-  },
-  {
-    value: 'fal-ai/nano-banana-pro/edit',
-    label: 'Nano Banana Pro',
-    provider: 'fal',
-    scenes: ['image-to-image'],
-  },
-  {
-    value: 'fal-ai/bytedance/seedream/v4/edit',
-    label: 'Seedream 4',
-    provider: 'fal',
-    scenes: ['image-to-image'],
-  },
-  {
-    value: 'fal-ai/z-image/turbo',
-    label: 'Z-Image Turbo',
-    provider: 'fal',
-    scenes: ['text-to-image'],
-  },
-  {
-    value: 'fal-ai/flux-2-flex',
-    label: 'Flux 2 Flex',
-    provider: 'fal',
-    scenes: ['text-to-image'],
-  },
-  {
-    value: 'gemini-3-pro-image-preview',
-    label: 'Gemini 3 Pro Image Preview',
-    provider: 'gemini',
-    scenes: ['text-to-image', 'image-to-image'],
-  },
-  {
-    value: 'nano-banana-pro',
-    label: 'Nano Banana Pro',
-    provider: 'kie',
-    scenes: ['text-to-image', 'image-to-image'],
-  },
 ];
 
 const PROVIDER_OPTIONS = [
   {
     value: 'replicate',
     label: 'Replicate',
-  },
-  {
-    value: 'fal',
-    label: 'Fal',
-  },
-  {
-    value: 'gemini',
-    label: 'Gemini',
-  },
-  {
-    value: 'kie',
-    label: 'Kie',
   },
 ];
 
