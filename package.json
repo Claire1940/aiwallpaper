@@ -172,7 +172,7 @@
       "esbuild",
       "sharp",
       "unrs-resolver",
-      "workerder"
+      "workerd"
     ]
   }
 }
