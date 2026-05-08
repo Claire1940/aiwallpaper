@@ -2,10 +2,10 @@
   "sidebar": {
     "header": {
       "brand": {
-        "title": "ShipAny Chat",
+        "title": "AI Wallpaper",
         "logo": {
           "src": "/logo.png",
-          "alt": "ShipAny Chat"
+          "alt": "AI Wallpaper"
         },
         "url": "/chat"
       },
@@ -60,25 +60,25 @@
           },
           {
             "title": "GitHub",
-            "url": "https://github.com/your-app-name",
+            "url": "https://aiwallpaper.best",
             "icon": "Github",
             "target": "_blank"
           },
           {
             "title": "推特",
-            "url": "https://twitter.com/your-app-name",
+            "url": "https://aiwallpaper.best",
             "icon": "RiTwitterXFill",
             "target": "_blank"
           },
           {
             "title": "Discord",
-            "url": "https://discord.gg/your-app-name",
+            "url": "https://aiwallpaper.best",
             "icon": "RiDiscordFill",
             "target": "_blank"
           },
           {
             "title": "邮箱",
-            "url": "mailto:support@your-domain.com",
+            "url": "mailto:support@aiwallpaper.best",
             "icon": "Mail",
             "target": "_blank"
           }

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "ShipAny 模板二",
-    "description": "ShipAny 是用于构建 AI SaaS 创业项目的 NextJS 脚手架。提供丰富模板和组件，助您快速上线产品。",
-    "keywords": "shipany, shipany-boilerplate, shipany-template-two-demo"
+    "title": "AI Wallpaper",
+    "description": "AI Wallpaper 是一个 AI 壁纸生成器，用户输入提示词即可生成精美的 AI 壁纸并下载。",
+    "keywords": "ai壁纸, ai壁纸生成器, ai背景, ai壁纸4k, ai艺术壁纸, 壁纸生成器"
   },
   "sign": {
     "sign_in_title": "登录",

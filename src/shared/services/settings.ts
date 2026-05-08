@@ -247,14 +247,14 @@ export async function getSettingGroups() {
       name: 'affonso',
       title: t('groups.affonso'),
       description:
-        'custom your <a href="https://affonso.io?atp=shipany" class="text-primary" target="_blank">Affonso</a> settings',
+        'custom your <a href="https://affonso.io?atp=aiwallpaper" class="text-primary" target="_blank">Affonso</a> settings',
       tab: 'affiliate',
     },
     {
       name: 'promotekit',
       title: t('groups.promotekit'),
       description:
-        'custom your <a href="https://www.promotekit.com?via=shipany" class="text-primary" target="_blank">PromoteKit</a> settings',
+        'custom your <a href="https://www.promotekit.com?via=aiwallpaper" class="text-primary" target="_blank">PromoteKit</a> settings',
       tab: 'affiliate',
     },
     {
@@ -280,7 +280,7 @@ export async function getSettings() {
     {
       name: 'app_name',
       title: 'App Name',
-      placeholder: 'ShipAny',
+      placeholder: 'AI Wallpaper',
       type: 'text',
       group: 'appinfo',
       tab: 'general',
@@ -289,7 +289,7 @@ export async function getSettings() {
       name: 'app_description',
       title: 'App Description',
       placeholder:
-        'ShipAny is a NextJS boilerplate for building AI SaaS startups. ',
+        'Generate stunning AI wallpapers with just a text prompt. ',
       type: 'textarea',
       group: 'appinfo',
       tab: 'general',
@@ -664,7 +664,7 @@ export async function getSettings() {
       name: 'plausible_domain',
       title: 'Plausible Domain',
       type: 'text',
-      placeholder: 'shipany.site',
+      placeholder: 'aiwallpaper.best',
       group: 'plausible',
       tab: 'analytics',
     },
@@ -704,7 +704,7 @@ export async function getSettings() {
       name: 'resend_sender_email',
       title: 'Resend Sender Email',
       type: 'text',
-      placeholder: 'ShipAny Two <no-reply@mail.shipany.site>',
+      placeholder: 'AI Wallpaper <no-reply@aiwallpaper.best>',
       group: 'resend',
       tab: 'email',
     },
