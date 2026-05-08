@@ -8,7 +8,7 @@ WORKDIR /app
 
 # Install dependencies based on the preferred package manager
 COPY package.json pnpm-lock.yaml* source.config.ts next.config.mjs ./
-RUN pnpm i --no-frozen-lockfile
+RUN pnpm i --no-frozen-lockfile --config.confirmModulesPurge=false
 
 # Rebuild the source code only when needed
 FROM deps AS builder
