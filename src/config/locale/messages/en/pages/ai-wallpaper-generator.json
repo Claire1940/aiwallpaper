@@ -1,0 +1,210 @@
+{
+  "page": {
+    "title": "AI Wallpaper Generator",
+    "show_sections": [
+      "hero",
+      "generator",
+      "features",
+      "showcase",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Generate Stunning AI Wallpapers",
+        "highlight_text": "AI Wallpapers",
+        "description": "Transform your ideas into beautiful wallpapers with AI.<br/>Just type a prompt and download in seconds.",
+        "buttons": [
+          {
+            "title": "Start Generating",
+            "icon": "Zap",
+            "url": "#generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "View Gallery",
+            "icon": "Image",
+            "url": "/ai-wallpaper",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": true,
+        "avatars_tip": "Join 500+ creators making AI wallpapers",
+        "background_image": {
+          "src": "/imgs/bg/tree.jpg",
+          "alt": "hero"
+        }
+      },
+      "generator": {
+        "block": "wallpaper-generator",
+        "id": "generator",
+        "title": "Create Your Wallpaper"
+      },
+      "features": {
+        "block": "features-media",
+        "id": "features",
+        "title": "How to Generate AI Wallpapers",
+        "description": "Create stunning wallpapers in four simple steps",
+        "items": [
+          {
+            "title": "Enter Your Prompt",
+            "description": "Describe the wallpaper you want. Be as creative as you like - from cosmic landscapes to abstract art.",
+            "icon": "RiPencilFill"
+          },
+          {
+            "title": "Choose a Style",
+            "description": "Select from various AI models optimized for wallpaper generation - 4K, realistic, anime, and more.",
+            "icon": "RiPaletteFill"
+          },
+          {
+            "title": "Generate with AI",
+            "description": "Our AI creates your wallpaper in seconds. Each generation uses advanced diffusion models.",
+            "icon": "RiMagicFill"
+          },
+          {
+            "title": "Download & Enjoy",
+            "description": "Download your wallpaper in high resolution. Perfect for desktop, mobile, or tablet screens.",
+            "icon": "RiDownload2Fill"
+          }
+        ],
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "features"
+        },
+        "image_position": "right"
+      },
+      "showcase": {
+        "block": "showcase-flow",
+        "id": "showcase",
+        "title": "AI Wallpaper Gallery",
+        "description": "Explore wallpapers created by our community",
+        "groups": [
+          {
+            "name": "All"
+          },
+          {
+            "name": "Nature"
+          },
+          {
+            "name": "Abstract"
+          },
+          {
+            "name": "Cosmic"
+          }
+        ],
+        "items": [
+          {
+            "title": "Cosmic Nebula",
+            "description": "Vibrant colors of deep space",
+            "image": {
+              "src": "/imgs/features/1.png",
+              "alt": "cosmic nebula wallpaper"
+            },
+            "group": "Cosmic",
+            "url": "/ai-wallpaper-generator"
+          },
+          {
+            "title": "Mountain Sunrise",
+            "description": "Golden light over mountain peaks",
+            "image": {
+              "src": "/imgs/features/2.png",
+              "alt": "mountain sunrise wallpaper"
+            },
+            "group": "Nature",
+            "url": "/ai-wallpaper-generator"
+          },
+          {
+            "title": "Neon Waves",
+            "description": "Abstract neon light patterns",
+            "image": {
+              "src": "/imgs/features/3.png",
+              "alt": "neon waves wallpaper"
+            },
+            "group": "Abstract",
+            "url": "/ai-wallpaper-generator"
+          },
+          {
+            "title": "Aurora Borealis",
+            "description": "Northern lights over frozen lake",
+            "image": {
+              "src": "/imgs/features/4.png",
+              "alt": "aurora borealis wallpaper"
+            },
+            "group": "Nature",
+            "url": "/ai-wallpaper-generator"
+          },
+          {
+            "title": "Digital Rain",
+            "description": "Matrix-style falling code",
+            "image": {
+              "src": "/imgs/features/5.png",
+              "alt": "digital rain wallpaper"
+            },
+            "group": "Abstract",
+            "url": "/ai-wallpaper-generator"
+          },
+          {
+            "title": "Galaxy Core",
+            "description": "Center of the Milky Way",
+            "image": {
+              "src": "/imgs/features/6.png",
+              "alt": "galaxy core wallpaper"
+            },
+            "group": "Cosmic",
+            "url": "/ai-wallpaper-generator"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is AI Wallpaper Generator?",
+            "answer": "AI Wallpaper Generator is a tool that uses artificial intelligence to create unique, high-quality wallpapers based on your text descriptions. Simply describe what you want, and our AI will generate it for you."
+          },
+          {
+            "question": "How many wallpapers can I generate?",
+            "answer": "Each wallpaper generation costs 2 credits. You can get free credits when you sign up, and purchase additional credit packs anytime from our pricing page."
+          },
+          {
+            "question": "What resolution are the wallpapers?",
+            "answer": "Our AI generates wallpapers in high resolution suitable for all screen sizes, including desktop monitors, laptops, tablets, and smartphones. You can download and use them on any device."
+          },
+          {
+            "question": "Can I use the wallpapers commercially?",
+            "answer": "Yes! All wallpapers you generate are yours to use. Please review our Terms of Service for detailed usage rights and restrictions."
+          },
+          {
+            "question": "What AI models do you use?",
+            "answer": "We use state-of-the-art image generation models to create your wallpapers. The specific models available may vary, and model names are displayed for transparency only."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Start Generating AI Wallpapers Now",
+        "description": "Create stunning wallpapers in seconds with AI. Free credits available for new users.",
+        "buttons": [
+          {
+            "title": "Generate Now",
+            "url": "#generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "View Pricing",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "CreditCard"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}
