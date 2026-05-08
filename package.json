@@ -1,21 +1,18 @@
 {
-  "name": "shipany-template-two",
-  "version": "1.8.2",
+  "name": "aiwallpaper",
+  "version": "1.0.0",
   "private": true,
-  "author": "ShipAny.ai",
-  "homepage": "https://shipany.ai",
+  "author": "AI Wallpaper",
+  "homepage": "https://aiwallpaper.best",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shipanyai/shipany-template-two"
+    "url": "https://github.com/Claire1940/aiwallpaper"
   },
   "keywords": [
-    "shipany",
-    "shipany-two",
-    "shipany-template-two",
-    "ai-saas-boilerplate",
-    "ai-saas-template",
-    "ai-saas-framework",
-    "ai-saas-development"
+    "ai-wallpaper",
+    "ai-wallpaper-generator",
+    "ai-image-generation",
+    "wallpaper-generator"
   ],
   "scripts": {
     "dev": "next dev --turbopack",
