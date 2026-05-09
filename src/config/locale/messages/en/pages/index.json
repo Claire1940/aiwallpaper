@@ -2,6 +2,7 @@
   "page": {
     "show_sections": [
       "hero",
+      "generator",
       "introduce",
       "usage",
       "features",
@@ -38,6 +39,11 @@
           "src": "/imgs/bg/tree.jpg",
           "alt": "hero"
         }
+      },
+      "generator": {
+        "block": "wallpaper-generator",
+        "id": "generator",
+        "title": "Create Your Wallpaper"
       },
       "introduce": {
         "block": "features-list",
