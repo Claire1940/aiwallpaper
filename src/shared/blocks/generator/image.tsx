@@ -74,16 +74,10 @@ const MAX_PROMPT_LENGTH = 2000;
 
 const MODEL_OPTIONS = [
   {
-    value: 'gpt-image-2-text-to-image',
-    label: 'GPT Image 2',
+    value: 'nano-banana-pro',
+    label: 'Nano Banana Pro',
     provider: 'kie',
-    scenes: ['text-to-image'],
-  },
-  {
-    value: 'gpt-image-2-image-to-image',
-    label: 'GPT Image 2',
-    provider: 'kie',
-    scenes: ['image-to-image'],
+    scenes: ['text-to-image', 'image-to-image'],
   },
 ];
 
