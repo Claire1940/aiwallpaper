@@ -74,23 +74,23 @@ const MAX_PROMPT_LENGTH = 2000;
 
 const MODEL_OPTIONS = [
   {
-    value: 'google/nano-banana-pro',
-    label: 'Nano Banana Pro',
-    provider: 'replicate',
+    value: 'flux-1.1-pro',
+    label: 'Flux 1.1 Pro',
+    provider: 'kie',
     scenes: ['text-to-image', 'image-to-image'],
   },
   {
-    value: 'bytedance/seedream-4',
-    label: 'Seedream 4',
-    provider: 'replicate',
-    scenes: ['text-to-image', 'image-to-image'],
+    value: 'flux-1',
+    label: 'Flux 1',
+    provider: 'kie',
+    scenes: ['text-to-image'],
   },
 ];
 
 const PROVIDER_OPTIONS = [
   {
-    value: 'replicate',
-    label: 'Replicate',
+    value: 'kie',
+    label: 'Kie AI',
   },
 ];
 
