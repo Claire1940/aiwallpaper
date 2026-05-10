@@ -6,7 +6,6 @@
       "introduce",
       "usage",
       "features",
-      "testimonials",
       "faq",
       "cta"
     ],
@@ -32,8 +31,7 @@
             "variant": "outline"
           }
         ],
-        "show_avatars": true,
-        "avatars_tip": "Join 500+ creators making AI wallpapers",
+        "show_avatars": false,
         "show_award": false,
         "background_image": {
           "src": "/imgs/bg/tree.jpg",
@@ -168,40 +166,6 @@
             "title": "Secure & Private",
             "description": "Your prompts and generated images are private. We never share your data.",
             "icon": "RiLockFill"
-          }
-        ]
-      },
-      "testimonials": {
-        "id": "testimonials",
-        "title": "What Our Users Say",
-        "description": "Hear from creators who use AI Wallpaper for their devices.",
-        "items": [
-          {
-            "name": "Alex Rivera",
-            "role": "Digital Artist",
-            "quote": "AI Wallpaper has completely changed how I find inspiration. I generate unique wallpapers daily and use them as starting points for my digital art projects.",
-            "image": {
-              "src": "/imgs/avatars/1.png",
-              "alt": "alex"
-            }
-          },
-          {
-            "name": "Sarah Chen",
-            "role": "Content Creator",
-            "quote": "I love how I can describe exactly what I want and get a perfect wallpaper in seconds. The quality is amazing for social media backgrounds too!",
-            "image": {
-              "src": "/imgs/avatars/2.png",
-              "alt": "sarah"
-            }
-          },
-          {
-            "name": "Mike Johnson",
-            "role": "Software Engineer",
-            "quote": "Best AI wallpaper tool I've used. The credits system is fair, and the generated images are consistently high quality. My desktop always looks fresh.",
-            "image": {
-              "src": "/imgs/avatars/3.png",
-              "alt": "mike"
-            }
           }
         ]
       },
