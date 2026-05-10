@@ -74,16 +74,16 @@ const MAX_PROMPT_LENGTH = 2000;
 
 const MODEL_OPTIONS = [
   {
-    value: 'flux-1.1-pro',
-    label: 'Flux 1.1 Pro',
-    provider: 'kie',
-    scenes: ['text-to-image', 'image-to-image'],
-  },
-  {
-    value: 'flux-1',
-    label: 'Flux 1',
+    value: 'gpt-image-2-text-to-image',
+    label: 'GPT Image 2',
     provider: 'kie',
     scenes: ['text-to-image'],
+  },
+  {
+    value: 'gpt-image-2-image-to-image',
+    label: 'GPT Image 2',
+    provider: 'kie',
+    scenes: ['image-to-image'],
   },
 ];
 
